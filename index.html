@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="top-bar-container"></div>
+    <header>
+      <h1>
+        <img
+          src="Logotipo Tienda de Ropa Juvenil Rosa.png"
+          alt="Logo de Tienda de Ropa Juvenil"
+        />
+      </h1>
+      <a class="logo-menu" href="#"
+        ><img src="./menu icono.png" alt="Icono menú"
+      /></a>
+      <a class="usuario" href="#">
+        <img class="usuario" src="./usuariologo.png" alt="Logo usuario"
+      /></a>
+      <a class="compras" href="#">
+        <img class="compras" src="./carritodecompras.png" alt="#"
+      /></a>
+      <div class="search-container">
+        <form action="#" method="get">
+          <button type="submit">
+            <img src="./Front.png" alt="Buscar" />
+          </button>
+          <input type="text" placeholder="Buscar..." />
+        </form>
+      </div>
+    </header>
+    <section>
+      <ul>
+        <li><a href="novedades.html">Novedades</a></li>
+        <li class="dropdown">
+          <a href="chaquetas.html">Chaquetas y Abrigos</a>
+          <ul class="dropdown-content">
+            <li><a href="#">Bomber</a></li>
+            <li><a href="#">Abrigos</a></li>
+            <li><a href="#">Cuero</a></li>
+          </ul>
+        </li>
+        <li class="dropdown2">
+          <a href="ropa.html">Ropa</a>
+          <ul class="dropdown-content2">
+            <li><a href="#">Pantalones</a></li>
+            <li><a href="#">Faldas</a></li>
+            <li><a href="#">Vestidos</a></li>
+            <li><a href="#">Camisetas</a></li>
+          </ul>
+        </li>
+        <li class="dropdown3">
+          <a href="zapatos.html">Zapatos</a>
+          <ul class="dropdown-content3">
+            <li><a href="#">Zapatillas</a></li>
+            <li><a href="#">Sandalias</a></li>
+            <li><a href="#">Tacones</a></li>
+          </ul>
+        </li>
+        <li class="dropdown4">
+          <a href="bolsos.html">Bolsos y accesorios</a>
+          <ul class="dropdown-content4">
+            <li><a href="#">Bolsos Pequeños</a></li>
+            <li><a href="#">Bolsos Grandes</a></li>
+            <li><a href="#">Bolsos de Viaje</a></li>
+            <li><a href="#">Joyería</a></li>
+            <li><a href="#">Sombreros</a></li>
+            <li><a href="#">Calcetines</a></li>
+          </ul>
+        </li>
+        <li><a href="nueva.html">Nueva temporada</a></li>
+        <li><a href="popular.html">Más populares</a></li>
+        <li><a href="ofertas.html">Ofertas</a></li>
+      </ul>
+    </section>
+
+    <div class="line0"></div>
+    <article>
+      <img src="./banner2.png" alt="Imagen promocional" />
+    </article>
+    <div class="line"></div>
+    <div class="subtitle">
+      <img class="new" src="./new2.png" alt="Favoritos del mes" />
+    </div>
+    <section id="filters-section"></section>
+    <section id="products-section"></section>
+    <div id="product-container"></div>
+
+    <template id="product-template">
+      <div class="product">
+        <h2 class="product-name"></h2>
+        <p class="product-seller"></p>
+        <p class="product-price"></p>
+        <p class="product-description"></p>
+      </div>
+    </template>
+    <footer>
+      <ul>
+        <p><b>Info</b></p>
+        <li><a href="#">Quienes somos</a></li>
+        <li><a href="#">Tallas grandes</a></li>
+        <li><a href="#">Política</a></li>
+      </ul>
+      <ul>
+        <p><b>Contacto</b></p>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Atención al Cliente</a></li>
+        <li><a href="#">Whatsapp</a></li>
+      </ul>
+      <ul>
+        <p><b>Nuestra comunidad</b></p>
+        <li><a href="#">Miembros</a></li>
+        <li><a href="#">Guía de compras</a></li>
+        <li><a href="#">Sostenibilidad</a></li>
+      </ul>
+    </footer>
+    <section class="end">
+      <p>&copy; 2024 Tienda Online Margarita. Todos los derechos reservados.</p>
+    </section>
+  </body>
+</html>
